@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="uikit-3.0.0-rc.16\css\uikit.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <script src="uikit-3.0.0-rc.16\js\uikit.js"></script>
+    <script src="uikit-3.0.0-rc.16\js\uikit-icons.js"></script>
+</head>
+<body >
+    <nav class="uk-navbar-container"  uk-sticky="bottom: #offset" uk-navbar>
+        <div class="uk-navbar-left">
+    
+            <ul class="uk-navbar-nav">
+                <li><a href="#offcanvas-slide" uk-toggle><span style="color:#ee82ee">OpenMenu</span></a></li>
+                <li class="uk-active"><a href="main.html" target="iframe_main">Main</a></li>
+                <li>
+                    <a href="#">Files</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="css/style.css"  target="iframe_main">type.css</a></li>
+                            <li><a href="uikit-3.0.0-rc.16\css\uikit.css"  target="iframe_main">uikit.css</a></li>
+                            <li><a src="uikit-3.0.0-rc.16\js\uikit.js"  target="iframe_main">uikit.js</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="about.html"  target="iframe_main">About</a></li>
+            </ul>
+    
+        </div>
+    </nav>
+
+    <!--content-->
+    <div id="offcanvas-slide" uk-offcanvas>
+        <div class="uk-offcanvas-bar">
+
+            <ul class="uk-nav uk-nav-default">
+                <li class="uk-nav-header">Getting started</li> 
+                <li class=""><a href="main.html" target="iframe_main">main</a></li>
+                <li class=""><a href="signin.html" target="iframe_main">signin</a></li>
+                <li class=""><a href="about.html" target="iframe_main">about</a></li>
+                <li class=""><a href="http://jwts.hit.edu.cn/loginLdapQian" target="iframe_main">本科生平台登陆</a></li>
+                <li class=""><a href="http://jwc.hit.edu.cn/" target="iframe_main">教务处</a></li>
+                <li class=""><a href="http://jwts.hit.edu.cn/jskbcx/queryJsbjkb_wdl" target="iframe_main"> 班课表查询</a></li>
+                <li class=""><a href="http://jwts.hit.edu.cn/kjscx/queryKjs_wdl" target="iframe_main"> 空教室查询</a></li>
+                <li class="uk-divider-icon"></li>
+                <li class=""><a href="http://jwts.hit.edu.cn/kbcx/queryGrkb" target="iframe_main"> 个人总课表查询</a></li>
+                <li class=""><a href="http://jwts.hit.edu.cn/sljcjcx/tocjlogin" target="iframe_main"> 四六级成绩查询</a></li>
+                <li class=""><a href="http://jwts.hit.edu.cn/sljcjcx/tocjlogin" target="iframe_main"> 四六级成绩查询</a></li>
+                <li class=""><a href="http://jwts.hit.edu.cn/xsxk/queryXsxk?pageXklb=bx" target="iframe_main"> 必修选课</a></li>
+                <li class=""><a href="http://jwts.hit.edu.cn/kscx/queryKsForXs" target="iframe_main"> 考试时间查询</a></li>
+                <li class=""><a href="http://jwts.hit.edu.cn/kscx/queryKcForXs" target="iframe_main"> 考试详细查询</a></li>
+                <li class=""><a href="http://jwts.hit.edu.cn/cjcx/queryCjpub" target="iframe_main"> 个人成绩查询</a></li>
+                <li class=""><a href="http://jwts.hit.edu.cn/xspjgd/queryPjzn" target="iframe_main"> 评教</a></li>
+            </ul>
+
+        </div>
+    </div>
+    
+
+    <iframe src="main.html"  name="iframe_main" id="iframe_main" ></iframe>
+
+    
+    <!--content-->
+   
+    <div id="footer" class="uk-padding" style="background-color:#f8f8f8;text-align:center;">
+            测试用的作业，大概可以用BSD开源协议（笑）
+    </div>
+</body>
+</html>
+
