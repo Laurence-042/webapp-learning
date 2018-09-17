@@ -9,7 +9,6 @@
 <body >
     <nav class="uk-navbar-container"  uk-sticky="bottom: #offset" uk-navbar>
         <div class="uk-navbar-left">
-    
             <ul class="uk-navbar-nav">
                 <li><a href="#offcanvas-slide" uk-toggle><span style="color:#ee82ee">OpenMenu</span></a></li>
                 <li class="uk-active"><a href="main.html" target="iframe_main">Main</a></li>
@@ -25,6 +24,13 @@
                 </li>
                 <li><a href="about.html"  target="iframe_main">About</a></li>
             </ul>
+        </div>
+
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+                <li><a href="signin.html"  target="iframe_main">SignIn</a></li>
+                <li><a href="main.html"  target="iframe_main">SignOut</a></li>
+            </ul>
     
         </div>
     </nav>
@@ -32,7 +38,6 @@
     <!--content-->
     <div id="offcanvas-slide" uk-offcanvas>
         <div class="uk-offcanvas-bar">
-
             <ul class="uk-nav uk-nav-default">
                 <li class="uk-nav-header">Getting started</li> 
                 <li class=""><a href="main.html" target="iframe_main">main</a></li>
@@ -56,13 +61,42 @@
         </div>
     </div>
     
+    <div class=" uk-grid-small uk-grid-match uk-height-1-1 iframe_main" uk-grid >
+        <div class="uk-card uk-card-default uk-card-body uk-width-4-5">
+            <iframe src="main.html"  name="iframe_main" id="iframe_main"></iframe>
+        </div>
 
-    <iframe src="main.html"  name="iframe_main" id="iframe_main" ></iframe>
-
+        <div class="uk-card uk-card-primary uk-card-small uk-card-body uk-width-1-5 uk-position-center-right">
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-border-circle" width="40" height="40" src="images/test.jpg">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">目前已有的导航</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">更新时间：September 17, 2018</time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <ul class="uk-list uk-list-divider">
+                    <li>本科生平台登陆</li>
+                    <li>本科生平台成绩查询</li>
+                    <li>本科生平台评教系统</li>
+                    <li>本科生平台考试查询</li>
+                    <li>教务处的本科生课表</li>
+                    <li>教务处的空教室查询</li>
+                </ul>
+            </div>
+            <div class="uk-card-footer">
+                <a href="#" class="uk-button uk-button-text">敬请期待更多收录</a>
+            </div>
+        </div>
+    </div>
     
     <!--content-->
    
-    <div id="footer" class="uk-padding" style="background-color:#f8f8f8;text-align:center;">
+    <div id="footer">
             测试用的作业，大概可以用BSD开源协议（笑）
     </div>
 </body>

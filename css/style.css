@@ -1,4 +1,14 @@
+body{
+    background: #f2f2f0;
+}
+
 #iframe_main{
     height: 30em;
     width: 100%;
+}
+
+#footer{
+    padding: 1em;
+    background-color:#162238;
+    text-align:center;
 }
